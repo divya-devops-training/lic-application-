@@ -1,0 +1,25 @@
+#!/bin/bash
+# A simple shell script
+
+echo "Hello, Divya! Welcome to Shell Scripting."
+
+# Variables
+name="Divya"
+echo "Your name is $name"
+
+# Conditional statement
+echo "Enter a number:"
+read number
+
+if [ $number -gt 10 ]; then
+  echo "The number is greater than 10."
+else
+  echo "The number is 10 or less."
+fi
+
+# Loop example
+echo "Counting from 1 to 5:"
+for i in {1..5}
+do
+  echo "Number: $i"
+done
