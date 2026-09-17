@@ -1,0 +1,18 @@
+# simple_example.py
+
+# Greeting
+print("Welcome to Python scripting!")
+
+# Input
+name = input("Enter your name: ")
+print(f"Hello, {name}! Nice to meet you.")
+
+# A quick calculation
+num = int(input("Enter a number: "))
+square = num ** 2
+print(f"The square of {num} is {square}.")
+
+# Loop example
+print("Counting from 1 to 5:")
+for i in range(1, 6):
+    print(i)
